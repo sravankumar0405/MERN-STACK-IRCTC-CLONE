@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: quicksand, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0; 
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.45);
+}
+
+.heading {
+    color: rgb(27, 27, 116);
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+
+.row1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+span {
+    margin: 0px 10px;
+}
+
+.menu-section {
+    display: flex;
+    gap: 18px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 11px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.home-icon {
+    height: 16px;
+}
+
+.loginBtn, .loyalityBtn {
+    background-color: rgb(42, 42, 138);
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.trainBtn {
+    color: red;
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+}
+
+/* styling the home image section */
+
+.homeSection {
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
+    border-bottom: 2px solid lightgray;
+}
+
+.service-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.service-row {
+    display: flex;
+    gap: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.iconBox {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.15s linear;
+}
+
+.iconBox:hover {
+    background-color: rgb(35, 35, 202);
+}
+
+
+.icons {
+    height: 55px;
+    width: 60px;
+    z-index: 200;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* styling the holiday section */
+
+.holiday-section {
+    padding-top: 40px;
+}
+
+.holiday-card-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.holiday-cards {
+    /* background-color: white; */
+    width: 338px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.holiday-cards:hover {
+    transform: translateY(-18px);
+}
+
+
+.contentBox {
+    padding: 15px;
+}
+
+.card-content {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+
+/* styling the footer */
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+.footerContent {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
