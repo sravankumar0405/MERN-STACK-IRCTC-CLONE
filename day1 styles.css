@@ -1,0 +1,78 @@
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+/* Adding specific styles to class attribute buttons */
+
+.loginBtn {
+    background-color: purple;
+}
+
+.cashbackBtn {
+    border: 2px solid red;
+    font-family: monospace;
+}
+
+.contactBtn {
+    background-color: orange;
+}
+
+
+.welcomeSection h2 {
+    text-align: center;
+    color: blue;
+}
+
+/* Styling the feature section */
+
+h3 {
+    text-align: center;
+    color: red;
+}
+
+.featureBox {
+    padding: 40px 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* styling the footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.footerContent {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
